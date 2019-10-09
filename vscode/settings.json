@@ -1,1 +1,9 @@
-1
+{
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+	"editor.insertSpaces": false,
+	"workbench.startupEditor": "none",
+	"C_Cpp.updateChannel": "Insiders",
+	"python.linting.pylintPath": "pylint3"
+}
