@@ -1,29 +1,3 @@
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2017 Sep 20
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-"
-
-" Plugins will be downloaded under the specified directory.
-"call plug#begin('~/.vim/plugged')
-" Declare the list of plugins.
-"Plug 'morhetz/gruvbox'
-"Plug 'vim-airline/vim-airline'
-"Plug 'vim-airline/vim-airline-themes'
-"Plug 'tpope/vim-surround'
-"Plug 'majutsushi/tagbar'
-"Plug 'scrooloose/nerdtree'
-"Plug 'vim-perl/vim-perl'
-"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-" List ends here. Plugins become visible to Vim after this call.
-"call plug#end()
-
 set hidden
 filetype plugin indent on
 syntax on                      " Enable syntax highlighting
@@ -114,4 +88,18 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+
+" Plugins will be downloaded under the specified directory.
+"call plug#begin('~/.vim/plugged')
+" Declare the list of plugins.
+"Plug 'morhetz/gruvbox'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+"Plug 'tpope/vim-surround'
+"Plug 'majutsushi/tagbar'
+"Plug 'scrooloose/nerdtree'
+"Plug 'vim-perl/vim-perl'
+"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" List ends here. Plugins become visible to Vim after this call.
+"call plug#end()
 
