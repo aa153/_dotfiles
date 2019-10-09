@@ -26,7 +26,7 @@
 
 set hidden
 filetype plugin indent on
-syntax on
+syntax on                      " Enable syntax highlighting
 set hlsearch
 set ignorecase
 set smartcase
@@ -35,6 +35,11 @@ set backspace=indent,eol,start
 set nostartofline
 set nopaste
 set pastetoggle=<f11>
+set autoread
+set wrap                       "Wrap lines
+
+set showmatch                  " Show matching brackets when text indicator is over them
+set foldcolumn=1               " Add a bit extra margin to the left
 
 set wildmenu                   " Better commandline completion
 set wildmode=longest:full,full " Expand match on first Tab complete
