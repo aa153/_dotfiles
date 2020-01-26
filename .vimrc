@@ -29,7 +29,7 @@ set wrap                        " wrap lines
 set ruler                       " Show row and column ruler information
 set undolevels=1000             " Number of undo levels
 set backspace=indent,eol,start  " Backspace behaviour
-set directory^=$HOME/.vim/tmp// " Dir for swap files
+set directory^=$HOME/.vim/tmp/  " Dir for swap files
 
 syntax on
 
@@ -37,7 +37,13 @@ syntax on
 colorscheme monokai
 hi comment ctermfg=grey
 
+" set hidden
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/vim-perl/vim-perl', { 'for': 'perl' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'https://github.com/ap/vim-buftabline'
 call plug#end()
