@@ -45,6 +45,6 @@ nnoremap <C-P> :bprev<CR>
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/vim-perl/vim-perl', { 'for': 'perl' }
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'https://github.com/fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'https://github.com/ap/vim-buftabline'
 call plug#end()
