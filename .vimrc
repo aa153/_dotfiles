@@ -1,5 +1,6 @@
 " General
 set background=dark
+" set t_Co=256
 set number              " Show line numbers
 set numberwidth=6
 set linebreak           " Break lines at word (requires Wrap lines)
