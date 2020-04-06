@@ -1,9 +1,31 @@
 {
+    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true,
-	"editor.insertSpaces": false,
-	"workbench.startupEditor": "none",
-	"C_Cpp.updateChannel": "Insiders",
-	"python.linting.pylintPath": "pylint3"
+    // "editor.renderControlCharacters": false,
+    "editor.foldingStrategy": "indentation",
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.wordWrapColumn": 100,
+	"files.trimTrailingWhitespace": true,
+	"git.autoRepositoryDetection": false,
+    "telemetry.enableTelemetry": false,
+	"workbench.startupEditor": "newUntitledFile",
+
+	"rainbow_csv.csv_lint_detect_trailing_spaces": true,
+
+	"perlcritic.severity": "brutal",
+	"perlcritic.onSave": true,
+	"perlcritic.maxNumberOfProblems": 200,
+	"perlcritic.additionalArguments": [
+		"--profile", "/home/randy/.perlcriticrc"
+	],
+
+	"perltidy.profile": "/home/randy/.perltidyrc",
+	"workbench.colorTheme": "One Monokai",
+	"yaml.schemas": {
+		"file:///home/randy/.vscode/extensions/atlassian.atlascode-2.1.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+
 }
