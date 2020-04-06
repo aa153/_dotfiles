@@ -19,9 +19,9 @@
 	"perlcritic.onSave": true,
 	"perlcritic.maxNumberOfProblems": 200,
 	"perlcritic.additionalArguments": [
-		"--profile", "/home/randy/.perlcriticrc"
+		"--profile", "/home/a153/.perlcriticrc"
 	],
 
-	"perltidy.profile": "/home/randy/.perltidyrc",
+	"perltidy.profile": "/home/a153/.perltidyrc",
 	"workbench.colorTheme": "One Monokai",
 }
