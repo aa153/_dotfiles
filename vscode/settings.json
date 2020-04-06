@@ -24,8 +24,4 @@
 
 	"perltidy.profile": "/home/randy/.perltidyrc",
 	"workbench.colorTheme": "One Monokai",
-	"yaml.schemas": {
-		"file:///home/randy/.vscode/extensions/atlassian.atlascode-2.1.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-	},
-
 }
