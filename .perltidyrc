@@ -56,7 +56,7 @@
 --hanging-side-comments
 --closing-side-comments
 --closing-side-comment-interval=40
---closing-side-comment-maximum-text=20
+--closing-side-comment-maximum-text=40
 --closing-side-comments-balanced
 --closing-side-comment-else-flag=0
 --static-block-comments
