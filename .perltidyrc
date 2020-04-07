@@ -54,11 +54,11 @@
 --minimum-space-to-comment=1
 --ignore-side-comment-lengths
 --hanging-side-comments
---closing-side-comments
---closing-side-comment-interval=40
---closing-side-comment-maximum-text=40
---closing-side-comments-balanced
---closing-side-comment-else-flag=0
+#--closing-side-comments
+#--closing-side-comment-interval=20
+#--closing-side-comment-maximum-text=20
+#--closing-side-comments-balanced
+#--closing-side-comment-else-flag=0
 --static-block-comments
 --no-static-side-comments
 
