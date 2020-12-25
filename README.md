@@ -10,4 +10,6 @@ vim and :PlugInstall
 
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/aa153/_settings/master/.tmux.conf
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 ![tmux session](/Screenshot_2019-12-30_12-09-16.png?raw=true)
