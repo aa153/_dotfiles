@@ -1,4 +1,4 @@
-# _settings
+# _dotfiles
 
 curl -fLo ~/.vimrc https://raw.githubusercontent.com/aa153/_settings/master/.vimrc
 
