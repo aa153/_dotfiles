@@ -15,9 +15,9 @@
 # Basic Options
 #-----------------------------------------------------------------------------
 --indent-columns=4
---entab-leading-whitespace=4
+#--entab-leading-whitespace=4
 --maximum-line-length=100
---tabs
+#--tabs
 --default-tabsize=4
 --output-line-ending="unix"
 --converge
