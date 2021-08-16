@@ -183,3 +183,14 @@ exec --no-startup-id qbittorrent
 
 # screen locking
 exec --no-startup-id xautolock -time 30 -locker 'i3lock --color=006699'
+
+#
+# to change keyboard layout use file 
+# /etc/default/keyboard
+#
+# XKBMODEL="pc105"
+# XKBLAYOUT="us,ru"
+# XKBVARIANT=""
+# XKBOPTIONS="grp:ctrl_shift_toggle,grp_led:scroll"
+# 
+# BACKSPACE="guess"
